@@ -39,15 +39,13 @@ import { startEditExpense , startRemoveExpense } from '../actions/expenses';
 
 
 
-const mapStateToProps = (state, props) => ({expense: state.expenses.find((expense)=> expense.id === props.match.params.id)});
+const mapStateToProps = (state, props) => ({expense: state.expenses.find((expense) => expense.id === props.match.params.id)
+});
 
 
-const mapDispatchToProps = (dispatch, props) => {
-  return {
-    startEditExpense: (id, expense) => dispatch(startEditExpense(id, expense)),
-   
-    startRemoveExpense: (data) => dispatch(startRemoveExpense(data))
-  };
-};
+const mapDispatchToProps = (dispatch, props) => ({
+  startEditExpense: (id, expense) => dispatch(startEditExpense(id, expense)),
+  startRemoveExpense: (data) => dispatch(startRemoveExpense(data))
+});
 
 export default connect(mapStateToProps, mapDispatchToProps )(EditExpensePage);

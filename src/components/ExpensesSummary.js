@@ -16,10 +16,8 @@ export const ExpensesSummary = ({expenseCount, expensesTotal }) => {
           <Link className="button" to="/create">Add Expense</Link>
         </div>
       </div>
-      
-    </div>
-    
-  )
+    </div> 
+  );
 };
 
 const mapStateToProps = state => {

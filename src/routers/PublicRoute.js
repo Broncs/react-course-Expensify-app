@@ -12,7 +12,7 @@ export const PublicRoute = ({
     isAthenticated ? (
       <Redirect to="/dashboard" />
     ) : (
-      <Component {...props }/>
+      <Component {...props}/>
     )
   )}/>
 );
