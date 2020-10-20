@@ -1,7 +1,3 @@
-# Git Commands
+#course by andrew ...
 
-git init - create a new git repo
-git status- View the changes to your project code
-git add - add files to staging area
-git commit - Creates a new commit with files from staging area
-git log - View recent commits
+<a href='react-course-2-expensify-br123.herokuapp.com' >LiveServer </a>
