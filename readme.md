@@ -1,6 +1,6 @@
 #course by andrew ...
 
-Nesse curso , aprendi desde o basico de react , ate gerenciador de estados , e teste unitarios utilizando JEST,
+Nesse projeto , aprendi desde o basico de react , ate gerenciador de estados , e teste unitarios utilizando JEST,
 FireBase para o login , Login with google , SASS e muito mais , apesar de ser um pouco antigo o curso , eu altamente recomendo ,
 onde ele fala sobre todo os principios basicos  de Webpack e Babel. 
 
